@@ -1,0 +1,37 @@
+@font-face{
+    font-family:helvetica;
+    src: url(Helvetica.ttf)
+    
+}
+
+body{
+    background-color:steelblue;
+    background-image:url(lgbtqheart.png);
+    background-repeat:no-repeat;
+    background-size:300px;
+    background-position:700px;
+    background-position-y:900px;
+    background-position-x:1111px;
+
+}
+
+.thanksContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:15%
+}
+
+.thanksContainer > .thankyou{
+    color:white;
+    font-family:helvetica;
+    font-size:150%;
+    
+}
+
+.thanksContainer > #heading{
+    font-size:80px;
+    margin-right:40px;
+}
+
